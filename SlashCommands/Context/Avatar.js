@@ -24,7 +24,7 @@ module.exports = {
         .setTimestamp();
 
       interaction.followUp({ 
-        content: `${user.tag}'s Avatar`, 
+        content: `${user.tag}的頭像`, 
         embeds: [embed] });
     },
 };
